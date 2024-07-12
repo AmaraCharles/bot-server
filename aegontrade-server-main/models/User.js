@@ -40,19 +40,19 @@ const UsersSchema = new mongoose.Schema({
   useridd:{
     type:String,
   },
-  serverone:{
+  serveridone:{
     type:String,
   },
-  servertwo:{
+  serveridtwo:{
     type:String,
   },
-  serverthree:{
+  serveridthree:{
     type:String,
   },
-  serverfour:{
+  serveridfour:{
     type:String,
   },
-  serverfive:{
+  serveridfive:{
     type:String,
   },
   tokenn:{
