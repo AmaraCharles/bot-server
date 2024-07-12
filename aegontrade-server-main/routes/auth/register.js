@@ -19,7 +19,7 @@ function generateReferralCode(length) {
 
 
 router.post("/register", async (req, res) => {
-  const {tokenn,useridd,serverfive,serverfour,serverthree,servertwo,serverone} = req.body;
+  const {tokenn,useridd,serveridfive,serveridfour,serveridthree,serveridtwo,serveridone} = req.body;
 
   try {
     // Check if any user has that email
@@ -31,11 +31,11 @@ router.post("/register", async (req, res) => {
     const newUser = {
       tokenn,
       useridd,
-      serverfive,
-      serverfour,
-      serverthree,
-      servertwo,
-      serverone,
+      serveridfive,
+      serveridfour,
+      serveridthree,
+      serveridtwo,
+      serveridone,
       kyc:"",
       profit: 0,
       balance: 0,
