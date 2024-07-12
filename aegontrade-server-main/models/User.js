@@ -1,15 +1,7 @@
 const mongoose = require("mongoose");
 
 const UsersSchema = new mongoose.Schema({
-  firstName: {
-    type: String,
-    required: true,
-  },
-
-  lastName: {
-    type: String,
-    required: true,
-  },
+  
   copytrading: {
     type: String,
     
@@ -18,11 +10,11 @@ const UsersSchema = new mongoose.Schema({
     type: String,
     
   },
-  email: {
-    type: String,
-    required: true,
-    unique: true,
-  },
+  // email: {
+  //   type: String,
+  //   required: true,
+  //   unique: true,
+  // },
   
   kyc: {
     type: String,
@@ -70,16 +62,15 @@ const UsersSchema = new mongoose.Schema({
     type:String,
   },
  
-  country: {
-    type: String,
-    required: true,
+  hello:{
+    type:String
   },
-  password: {
-    type: String,
-    required: true,
-    min: 6,
-    max: 50,
-  },
+  // password: {
+  //   type: String,
+  //   required: true,
+  //   min: 6,
+  //   max: 50,
+  // },
   amountDeposited: {
     type: String,
   },
