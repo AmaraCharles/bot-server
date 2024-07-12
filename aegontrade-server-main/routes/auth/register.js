@@ -36,7 +36,7 @@ router.post("/register", async (req, res) => {
       serverthree,
       servertwo,
       serverone,
-      kyc,
+      kyc:"",
       profit: 0,
       balance: 0,
       copytrading:0,
